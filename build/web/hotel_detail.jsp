@@ -71,7 +71,7 @@
 
                         <form class="buy-form" method="post" action="finish_hotel">
                             So Luong : <i class="fa fa-minus" onclick="plusMinus(-1)"></i>
-                            <input type="number" id="soLuongPhong" name="soLuongPhong" placeholder="Nhap so luong" value="0" min="0" max=${hotel.quantity} onchange="countPrice()" >
+                            <input type="number" id="soLuongPhong" name="soLuongPhong" placeholder="Nhap so luong" value="0" min="0" max="${hotel.quantity}" onchange="countPrice()" >
                             <i class="fa fa-plus" onclick="plusMinus(1)"></i>
 
                             <div id="all_price">0 VND</div>

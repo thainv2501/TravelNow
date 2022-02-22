@@ -22,7 +22,7 @@
         </div>
         <div class="signUp-login">
             <a class="login" href="customerLogin.jsp" ${customer==null?"":"hidden"}>View Order</a>
-            <a class="signUp" href="customerSignUp" ${customer==null?"hidden":""}>Sign Up</a>
+            <a class="signUp" href="customerSignUp" ${customer==null?"hidden":""}>Log out</a>
 
     </nav>
 </header>
